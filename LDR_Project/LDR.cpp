@@ -16,7 +16,6 @@ void setup() {
 
   sh.write(hor_pos);
   sv.write(ver_pos);
-  delay(500);
 }
 
 void loop() {
