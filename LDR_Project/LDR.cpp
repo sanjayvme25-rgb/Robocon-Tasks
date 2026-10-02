@@ -31,6 +31,9 @@ void loop() {
   else if (left>right) {
     hor_pos--; 
   }
+  else{
+    hor_pos=90;
+  }
   
   sh.write(hor_pos);
 
@@ -39,6 +42,9 @@ void loop() {
   } 
   else if (bottom>top) {
     ver_pos--; 
+  }
+  else{
+    ver_pos=90;
   }
   sv.write(ver_pos);
 
